@@ -1,0 +1,15 @@
+spring:
+  profiles:
+    active: @spring.profiles.active@
+  config:
+    use-legacy-processing: true
+
+server:
+  port: 5000
+
+app:
+  datasource:
+    jdbc-url: jdbc:postgresql://demo.clpriigdlp8v.eu-west-2.rds.amazonaws.com:5432/postgres
+    username: nico
+    password: 123456789
+    pool-size: 30
